@@ -1,0 +1,63 @@
+@import '../components/colors';
+
+
+.nosotros{
+    
+
+    &__text{
+
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+
+
+        }    
+
+    
+        &__text-parrafo{
+            color: $color_body;
+            text-align: left;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+
+    &__image-container{
+        
+        width: 100%;
+        padding: 3%;
+        
+        }
+    
+    
+    &__image_1{
+        object-position: center;
+        
+       
+
+    
+    }
+
+
+}
+
+.separadores{
+    margin-top: 20px;
+    border: none;
+}
+
+img{
+
+        object-position: 50% bottom;
+        object-fit: cover;
+        width: 100%;
+        height: 250px;
+        opacity: 70%;
+       
+
+    
+    
+}
+
